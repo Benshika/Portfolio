@@ -1,0 +1,1268 @@
+body,html{
+  overflow-x: hidden;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}  
+
+.edu-vic-wa-nt-beginner-font {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+
+.playfair-display-name {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.navbg{
+  background-color: aqua;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+ 
+.nav-item{
+  font-style:oblique;
+  color: black;
+  margin-top: -10px;
+  font-size: 20px;
+  text-shadow: 0 0 3px aquamarine;
+}
+
+/* =======================home======================= */
+
+#home{
+  background-color: #000000;
+}
+
+.head {
+  background-color:aqua; 
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.head h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: rgb(0, 0, 0);
+  /* margin-top: 40px; */
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.head h2 {
+  font-size: 2em;
+  margin: 10px 0;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.name{
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.profile-img {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 220px;
+  border-radius: 250px;
+  margin-left: -0px;
+  margin-top: 0px;
+}
+
+.dp{
+  height:300px;
+  width: 300px;
+  border-radius: 600px;
+  border-style: double;
+  border-width: 40px;
+  border-color: aqua;
+  margin-left: 70px;
+  margin-top: 50px;
+  border-color: rgb(63, 63, 65);
+  transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-delay: 0.4s;
+  background-color: #000000;
+} 
+
+.dp:hover{
+  transform: rotate(5deg);
+  background-color: aqua;
+}
+
+.headp {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aqua;
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 25px;
+  word-spacing: 8px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.logo img {
+  width: 40px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.image{
+  margin-left: -800px;
+  margin-top: 350px;
+  border-radius: 50px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.image:hover{
+  background-color: aqua;
+  transform: scale(0.9);
+}
+
+.image1{
+  margin-left: -400px;
+  margin-top: 350px;
+  border: none;
+  border-radius: 50px;
+  background-color: black;
+  height: 40px;
+  width: 45px;
+  margin-bottom: 30px;
+}
+
+.image1:hover{
+  background-color: aqua;
+  transform: scale(0.9);
+}
+
+.name-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 6s steps(30, end), blink-caret 0.75s step-end infinite;
+  margin-top: 20px;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+
+@media (max-width: 1155px) {
+  .dp{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .head {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .headi .dp, .headi .headp {
+    text-align: center;
+    justify-content: center;
+  }
+  .dp, .headp {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head, .dp, .headp {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and  (max-width:767px) {
+  .headp{
+    margin-left:0px ;
+  }
+  .dp{
+    margin-left: 250px;
+  }
+}
+
+@media screen and  (max-width:655px) {
+  
+  .dp{
+    margin-left: 100px;
+  }
+}
+
+@media screen and  (max-width:418px) {
+  
+  .dp{
+    margin-left: 50px;
+  }
+}
+@media screen and  (max-width:365px) {
+  
+  .dp{
+    margin-left: 20px;
+  }
+}
+@media screen and  (min-width:992px) and (max-width:1439px) {
+  .headp{
+    margin-left:0px ;
+  }
+}
+
+
+/* =======================about============================== */
+
+.aboutd{
+  background-color:aqua;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.about-section {
+  background-color: black; 
+  color: white;
+  padding: 20px 0;
+}
+
+.abth {
+  color: rgb(9, 9, 9);
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  padding-top: 40px;
+
+}
+
+.abtp {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  padding-top: 20px ;
+}
+
+.resp{
+  font-size: 20px;
+  font-family:"Playfair Display", serif;
+}
+
+.download-btn {
+  background: linear-gradient(45deg, #90afed, #0c3485);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px; 
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+  overflow: hidden;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.download-btn::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+
+.download-btn:hover::before {
+  transform: rotate(360deg); 
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #ffffff, #7b1e7e);
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); 
+  font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px); 
+  }
+}
+
+.download-btn {
+  animation: bounce 1s infinite; 
+}
+
+.download-btn:active {
+  transform: translateY(4px); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.abti {
+  width: 102%;
+  height: auto;
+  opacity: 0.3; 
+  margin-left: -10px;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: aqua;
+}
+
+ 
+.content-overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  margin-top: 150px;
+}
+
+
+
+.con{
+  margin-top: 150px;
+  font-family: "Playfair Display", serif;
+
+}
+
+hr {
+  border: none;
+  height: 3px; 
+  width: 50px;
+  margin: 20px auto;
+  transform-origin: center;
+  animation: expandShrinkBothSides 2s infinite ease-in-out; 
+}
+
+@keyframes expandShrinkBothSides {
+  0% {
+      transform: scaleX(1); 
+      background-color: rgb(255, 255, 255)
+  }
+  50% {
+      transform: scaleX(7); 
+      background-color: rgb(237, 237, 237);
+  }
+  100% {
+      transform: scaleX(1); 
+      background-color: rgb(255, 255, 255);
+  }
+}
+
+
+
+
+
+/* =======================education======================= */
+
+#education{
+  background-color: black;
+ 
+}
+
+.edu{
+  background-color:aqua;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.edud{
+  margin-left: -140px;
+}
+
+ .eduh{
+  color: rgb(9, 9, 9);
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  padding-top: 40px;
+}
+
+.edup{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  padding-top: 10px ;
+}
+
+.edui{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: -20px;
+}  
+
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin-left: -40px;
+  margin-top: 100px;
+}
+
+.education-card {
+  position: relative;
+  width: 270px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.education-card:hover {
+  transform: scale(1.05);
+}
+
+.education-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-top: -50px;
+}
+
+.education-title{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  background: linear-gradient(90deg,  #d764b5,#68dde8);
+  padding-top: 125px;
+  color:#0c3485;
+}
+
+.eduh2{
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  color: #7b1e7e;
+
+}
+
+.edupp{
+  font-size: 30px;
+  margin-top: 20px;
+}
+.education-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #68dde8, #d764b5);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.education-card:hover .education-overlay {
+  opacity: 1;
+}
+
+.education-text {
+  color: white;
+  text-align: center;
+}
+
+.education-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.education-text p {
+  font-size: 16px;
+}
+
+@media (max-width: 992px) {
+  .edud{
+    margin-left: 0px;
+    }  }
+
+
+/* ====================SKILLS================================= */
+
+#skills{
+  background-color: black;
+}
+  
+.ski{
+  background-color:aqua;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.skih{
+  color: rgb(9, 9, 9);
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  padding-top: 30px;
+}
+  
+.skip{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  padding-top: 20px ;
+}
+
+.skii{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: -20px;
+}
+
+.py{
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+img {
+  filter: drop-shadow(2px 2px 20px rgb(121, 124, 124));
+}
+
+.skill1{
+  display: flex;
+}
+
+.pyth{
+  color: #d764b5;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 25px;
+}
+
+
+/* ======================CERTIFICATION============== */
+
+.certification{
+  background-color: #000000;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cerimg {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 8px rgb(110, 107, 107);
+  border-radius: 150px;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex: 1 1 100%;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+  margin-top: 50px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  margin-left: 50px;
+}
+
+.inner-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card:hover .inner-card {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(152, 141, 141);
+  cursor: pointer;
+}
+
+.front {
+  background: linear-gradient(90deg, #68dde8, #d764b5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.back {
+  transform: rotateY(180deg);
+  cursor: pointer;
+
+}
+
+.certh{
+  text-align: center;
+  margin-left: 10px;
+  color: #000000;
+  text-shadow: #68dde8;
+  font-family: "Playfair Display", serif;
+
+}
+
+.certp{
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+
+
+.back img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .image-container {
+      flex: 1 1 100%;
+  }
+  .card-container {
+      flex: 1 1 100%;
+      justify-content: space-around;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-container {
+      flex: 1;
+  }
+  .card-container {
+      flex: 3;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-container {
+      flex: 1 1 100%;
+  }
+  .card-container {
+      flex: 1 1 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .card {
+      margin-bottom: 20px;
+  }
+}
+
+
+
+@media (max-width: 992px){
+  
+  .certificate1, .certificate2, .certificate3{
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+}
+
+
+
+
+/* =============================EXPERIENCE================== */
+
+#experience {
+  background-color: black;
+}
+
+.exp {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  height: 400px;
+
+}
+
+.exph {
+  color: rgb(9, 9, 9);
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  padding-top: 40px;
+
+}
+
+.expp {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  padding-top: 10px;
+}
+
+.expi {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: -20px;
+}
+
+.exper-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.exper-card {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #d764b5, #68dde8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.exper-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.exper-title {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.exper-title img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.exper-card:hover .exper-title img {
+  transform: scale(1.1);
+}
+
+
+.exp1h{
+font-size: 35px;
+justify-content: center;
+text-align: center;
+margin-top: 125px;
+font-family: "Playfair Display", serif;
+line-height: 50px;
+}
+
+.exper-date{
+font-size: 17px;
+margin-top: -30px;
+margin-left: 20px;
+}
+
+.experimg{
+height: 30px;
+width: 30px;
+margin-top: 30px;
+margin-left: -250px;
+}
+
+.exper-card-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #d764b5, #68dde8);
+  color: white;
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  text-align: center;
+}
+
+.exper-card:hover .exper-card-content {
+  transform: translateY(0);
+}
+
+.exper-name {
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.exper-description {
+  font-size: 18px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  color: #7b1e7e;
+  margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .exp {
+    flex: 1;
+  }
+  .exper-section {
+    flex: 2;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #experience {
+    flex-wrap: wrap;
+  }
+  .exp {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .exper-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .exp {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .exper-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ==================PROJECT=============================== */
+
+#project {
+  background-color: black;
+}
+
+.pro {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  height: 400px;
+}
+
+.proh {
+  color: rgb(9, 9, 9);
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  padding-top: 40px;
+}
+
+.prop {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  padding-top: 20px;
+}
+
+.proi {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: -20px;
+}
+
+.project-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-card-image img {
+  transform: scale(1.1);
+}
+
+.project-card-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(90deg, #68dde8, #d764b5);
+  color: white;
+  padding: 20px;
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  text-align: center;
+}
+
+.project-card:hover .project-card-content {
+  transform: translateY(0);
+}
+
+.project-title {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.project-description {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #7b1e7e;
+}
+
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .pro {
+    flex: 1;
+  }
+  .project-section {
+    flex: 2;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #project {
+    flex-wrap: wrap;
+  }
+  .pro {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .project-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .pro {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .project-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/*==============================CONTACT=====================  */
+
+#contact {
+  background-color: black;
+}
+
+.cont {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  height: 400px;
+}
+
+.conth {
+  color: rgb(9, 9, 9);
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  padding-top: 30px;
+}
+
+.contp {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  padding-top: 20px;
+}
+
+.conti {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  margin-top: -20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+label{
+  color: #68dde8;
+  font-family: "Playfair Display", serif;
+}
+
+input,
+textarea {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  border-color: #000000;
+}
+
+.sub {
+  background: linear-gradient(45deg, #a1edf4, #d764b5);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px; 
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+  overflow: hidden;
+  z-index: 1;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.sub::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+
+.sub:hover::before {
+  transform: rotate(360deg);
+}
+
+.sub:hover {
+  background: linear-gradient(135deg, #d764b5, #a1edf4);
+  transform: scale(1.1); 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+  font-family: "Edu VIC WA NT Beginner", cursive;
+
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px); 
+  }
+}
+
+.sub {
+  animation: bounce 1s infinite; 
+}
+
+.sub:active {
+  transform: translateY(4px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* ===========================FOOTER====================================== */
+
+footer {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin: 10px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+
+}
+
+.footer-links a:hover {
+  color: #4CAF50;
+}
+
+
+footer p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-links li {
+    margin: 5px 0;
+  }
+
+  .social-icons a {
+    margin: 5px;
+  }
+}
